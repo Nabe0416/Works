@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 		"titleFont";
+  src:				url('../font/deutms.ttf'),
+					url('../font/deutms.eot');
+}	
+
+html{
+background-color:	RGB(129,13,13);
+}
+
+table {
+background-color:	RGB(106,14,14);
+}
+
+img.logo {
+width:				500px;
+clear: 				both;
+display: 			block;
+margin:				auto;
+}
+
+h1 {
+width:				740px;
+font-size:			50px;
+font-family:		titleFont;
+font-variant:		small-caps;
+margin-left:		auto;
+margin-right:		auto;
+}
+
+table.menubar	{
+margin-left:		auto;
+margin-right:		auto;
+}
+
+
+th.menubar {
+table-layout:		fixed;
+font-size:			30px;
+font-family:		titleFont;
+border:				3px solid black;
+border-radius:		10px;
+width:				5cm;
+}
+
+th.menubar:hover{
+background:			linear-gradient(to bottom,RGB(115,10,10),RGB(167,6,6));
+}
+
+a {
+text-decoration:	none;
+}
+
+a.menubar {
+display:			inline-block;
+height:				100%;
+width:				100%;
+color:				white;
+}
+
+a.menubar:hover{
+color:				gold;
+}
+
+hr.a {
+height: 			12px;
+border: 			0;
+box-shadow: 		inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+td {
+table-layout:		fixed;
+}
+
+h2 {
+width:				100%;
+font-size:			40px;
+font-family:		titleFont;
+color:				RGB(187,134,29);
+font-variant:		small-caps;
+text-align:			center;
+}
+
+h3 {
+width:				100%;
+font-size:			30px;
+font-family:		titleFont;
+color:				RGB(187,134,29);
+font-variant:		small-caps;
+text-align:			center;
+}
+
+img.showpic {
+width:				600px;
+transition:			width 1s;
+-moz-transition:	width 1s;
+-webkit-transition:	width 1s;
+-o-transition:		width 1s;
+clear: 				both;
+display: 			block;
+margin:				auto;
+}
+
+img.showpic:hover {
+width:				900px;
+}
+
+p {
+color:				white;	
+}
+
+a.backtop {
+font-size:			30px;
+font-family:		titleFont;
+border:				3px solid black;
+border-radius:		10px;
+color:				RGB(187,134,29);
+margin-left:		50%
+}
+
+table.chrpic {
+margin-left:		auto;
+margin-right:		auto;
+}
+
+td.chrpic {
+table-layout:		fixed;
+}
+
+img.chrpic {
+width:				500px;
+}
+
+div.hyperlink {
+width:				100%;
+font-size:			40px;
+font-family:		titleFont;
+font-variant:		small-caps;
+text-align:			center;
+}
+
+a.hyperlink {
+margin-top:			10px;
+color:				RGB(187,134,29);
+}
+
+p.editor {
+text-align:			center;
+}
