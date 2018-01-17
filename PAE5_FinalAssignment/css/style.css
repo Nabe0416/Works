@@ -1,0 +1,81 @@
+html {
+    background-color:       rgb(36, 36, 36);
+}
+
+h1 {
+    color:                  aliceblue;
+}
+
+p {
+    color:                  aliceblue;
+    text-align:             center;
+}
+
+p.displayQuestion {
+    font-size:              200%;
+}
+
+h1 {
+    text-align:             center;
+    font-family:            Tahoma, Geneva, sans-serif;
+    font-size:              350%;
+}
+
+p.description {
+    text-align:             center;
+    font-family:            Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+table {
+    margin:                 auto;
+}
+
+td.mainScreen {
+    vertical-align:         middle;
+    text-align:             center;
+}
+
+button  {
+    width:                  270px;
+    height:                 50px;
+    background-color:       rgb(36, 36, 36);
+    color:                  aliceblue;
+    font-family:            'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:              100%;
+    border-radius:          20px;
+}
+
+button.choicesDisable {
+    background-color:       rgb(19, 19, 19);
+    border-radius:          20px 5px 20px 5px;
+}
+
+button.choicesEnable {
+    background-color:       rgb(36, 36, 36);
+    border-radius:          20px 5px 20px 5px;
+}
+
+button.nextDisable {
+    background-color:       rgb(19, 19, 19);
+}
+
+button.nextEnable {
+    background-color:       rgb(36, 36, 36);
+}
+
+button.correct {
+    border-radius:          20px 5px 20px 5px;
+    background-color:       rgb(31, 77, 20);
+}
+
+
+hr.hr {
+    height:                 10px;
+    border:                 none;
+    border-top:             10px groove cornflowerblue;
+}
+
+div.command {
+    margin:                 0 auto;
+    width:                  270px;
+}
