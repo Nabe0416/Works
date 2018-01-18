@@ -1,3 +1,4 @@
+//Create array for all the questions
 var questions = [];
 
 var q1 = {
@@ -73,15 +74,15 @@ var q12 = {
 }
 
 var q13 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"Which in following is NOT nutrient that human need a lot relatively.",
+    correctAnswer:"Organic acid",
+    choices:["Carbohydrate","Fat","Vitamin","Organic acid"]
 }
 
 var q14 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"Which in following can NOT use for sterilizing?",
+    correctAnswer:"Lead dichloride(PbCl2)",
+    choices:["Ethanol(CH3CH2OH)","Hydrogen peroxide(H2O2)","Hypochlorous acid(HCLO)","Lead dichloride(PbCl2)"]
 }
 
 var q15 = {

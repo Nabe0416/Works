@@ -1,6 +1,6 @@
 var mainScreenHeader = "Chemistry Quiz";
-var mainScreenDescription = "In this quiz you will randomly get 10 questions about chemistry in your daily life. <br/>"+ 
-"Try to get it right as many as possible! <br/>" +
+var mainScreenDescription = "In this quiz you will randomly get 10 questions about chemistry in your daily life. <br/><br/>"+ 
+"Try to get it right as many as possible! <br/><br/>" +
 "You can get the right answers after the quiz, so you will learn something that you are not familiar with.";
 
 /**
@@ -75,10 +75,5 @@ document.getElementById("again").onclick = function() {
     window.location.reload();
     mainScreen();
 }
-
-
-document.getElementById("start").innerHTML = "Start";
-document.getElementById("next").innerHTML = "Next";
-document.getElementById("again").innerHTML = "Play Again";
 
 mainScreen();
