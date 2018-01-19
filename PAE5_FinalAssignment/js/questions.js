@@ -86,39 +86,39 @@ var q14 = {
 }
 
 var q15 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"What is range of pH of acid rain?",
+    correctAnswer:"<5",
+    choices:["<6","<8","<7","<5"]
 }
 
 var q16 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"Which in following is NOT greenhouse gas?",
+    correctAnswer:"Nitrogen (N2)",
+    choices:["Vapour(H2O)","Ozone (O3)","Carbon dioxide(CO2)","Nitrogen (N2)"]
 }
 
 var q17 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"Why sliced apple get brown after a couple of minutes?",
+    correctAnswer:"The ferrous(Fe2+) are oxidized.",
+    choices:["The lutein goes out fron the inside.","It goes bad.","Because of the loss of water.","The ferrous(Fe2+) are oxidized."]
 }
 
 var q18 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"What ingredient ripens bananas when placing bananas and tomatoes together in a plastic bag?",
+    correctAnswer:"Ethylene(CH2=CH2)",
+    choices:["Methane(CH4)","Ethane(CH3CH3)","Ethanal(CH3CHO)","Ethylene(CH2=CH2)"]
 }
 
 var q19 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"What is the proportion of ethanol in medical alcohol?",
+    correctAnswer:"75%",
+    choices:["50%","90%","95%","75%"]
 }
 
 var q20 = {
-    question:"sth",
-    correctAnswer:"1",
-    choices:["","","","1"]
+    question:"What in following can use for cleaning rust?",
+    correctAnswer:"Hydrochloric acid(HCl)",
+    choices:["Water(H2O)","Concentrated sulfuric acid","Niacin(C6H5NO2)","Hydrochloric acid(HCl)"]
 }
 
 questions = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20]
