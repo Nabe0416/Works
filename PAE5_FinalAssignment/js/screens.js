@@ -42,11 +42,11 @@ function quizScreen() {
 function resultScreen() {
     var reviewOfMistake = "";
     document.getElementById("header").innerHTML = "Your grade is " + grade;
-    if (wrongAnswer.length === 0) {
+    if (wrongAnswerssss.length === 0) {
         document.getElementById("paragraph").innerHTML = "You get all right for this quiz! Congratulations!";
     } else {
-        for (var index = 0; index < wrongAnswer.length; index++) {
-            reviewOfMistake = reviewOfMistake + wrongAnswer[index];
+        for (var index = 0; index < wrongAnswerssss.length; index++) {
+            reviewOfMistake = reviewOfMistake + wrongAnswerssss[index];
         }
         document.getElementById("paragraph").innerHTML = reviewOfMistake;
     }

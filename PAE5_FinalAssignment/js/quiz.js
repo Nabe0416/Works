@@ -1,4 +1,4 @@
-var currentQuestion;
+    var currentQuestion;
 var currentAnswer;
 var showingQuestion;
 var questionsCounter = 0;
@@ -9,7 +9,7 @@ var btn4;
 var btnNext;
 var grade = 0;
 var choiceButtons = [];
-var wrongAnswer = [];
+var wrongAnswers = [];
 
 btn1 = document.getElementById("btn1");
 btn2 = document.getElementById("btn2");
@@ -128,14 +128,14 @@ function checkCorrectAnswer() {
     if (correctAnswer === currentAnswer) {
         grade++; 
     } else {
-        wrongAnswer.push("The question was: " + currentQuestion.question + "<br/>The correct answer is: " + currentQuestion.correctAnswer + "<br/>What you have chosen was: " + currentAnswer + "<br/><br/>")
+        wrongAnswers.push("The question was: " + currentQuestion.question + "<br/>The correct answer is: " + currentQuestion.correctAnswer + "<br/>What you have chosen was: " + currentAnswer + "<br/><br/>")
     }
     highlightTheCorrectAnswer();
 }
 
 /**
  * @function
- * @name undateHeader
+ * @name updateHeader
  * @description Refresh the header to show the progress of the quiz.
  */
 function updateHeader() {
